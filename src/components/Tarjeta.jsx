@@ -1,6 +1,7 @@
 export function Tarjeta({ item }) {
 
   return (
+    
     <div
       className="
       bg-blue-600 
@@ -21,7 +22,9 @@ export function Tarjeta({ item }) {
       ">
       <h3
       className="
-      bg-neutral-900 
+      bg-gradient-to-r 
+      from-cyan-800 
+      to-cyan-200 
       border-amber-50 
       border-2 w-50 
       text-amber-200 
@@ -37,7 +40,9 @@ export function Tarjeta({ item }) {
         src={item?.image} />
 
       <p
-      className="bg-neutral-900 
+      className="bg-gradient-to-r 
+      from-amber-800 
+      to-amber-400
       border-amber-50 
       border-2 w-50  
       text-amber-200 

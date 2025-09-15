@@ -50,10 +50,11 @@ function App() {
           w-full 
           max-w-md 
           p-2 
-          rounded-md
           border-2 
-          border-amber-50
-          bg-blue-400 "
+        border-amber-50
+          bg-gradient-to-r 
+        from-cyan-800 
+        to-cyan-200 "
       />  
       <Contendor >
         {
