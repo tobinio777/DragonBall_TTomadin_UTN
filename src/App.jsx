@@ -43,12 +43,17 @@ function App() {
     items-center ">
     <input
         type="text"
-        placeholder="Buscar por nombre..."
+        placeholder="BUSCAR"
         value={query}
         onChange={manejarBusqueda}
         className="
-          w-full max-w-md p-2 
-          rounded-md border-2 border-gray-300 "
+          w-full 
+          max-w-md 
+          p-2 
+          rounded-md
+          border-2 
+          border-amber-50
+          bg-blue-400 "
       />  
       <Contendor >
         {
